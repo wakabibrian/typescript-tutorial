@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "standard-version": "^9.5.0",
+    "release":"standard-version"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
