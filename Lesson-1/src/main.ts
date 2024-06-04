@@ -1,4 +1,4 @@
-// ==================== Introduction
+// ==================== Introduction.
 let username: string = "Wakabi Brian";
 console.log(username);
 
