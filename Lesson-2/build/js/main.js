@@ -1,9 +1,7 @@
 "use strict";
-// ==================== Introduction
-let username = "Wakabi Brian";
-console.log(username);
-let a = 12;
-let b = 6;
-let c = 2;
-console.log(a / b);
-console.log(a * b);
+// ==================== Basics of Typescript.
+let myName = "Wakabi";
+// myName = 42; // Shows a typescript error
+let myJob;
+myJob = "Programmer";
+myJob = "Designer";

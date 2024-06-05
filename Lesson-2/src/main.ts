@@ -1,10 +1,9 @@
-// ==================== Introduction.
-let username: string = "Wakabi Brian";
-console.log(username);
+// ==================== Basics of Typescript.
+let myName: string = "Wakabi";
 
-let a: number = 12;
-let b: number = 6;
-let c: number = 2;
+// myName = 42; // Shows a typescript error
 
-console.log(a / b);
-console.log(a * b);
+let myJob: string;
+
+myJob = "Programmer";
+myJob = "Designer";
