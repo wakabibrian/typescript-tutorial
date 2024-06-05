@@ -1,4 +1,5 @@
 // ==================== Basics of Typescript.
+// string, number, boolean and any types
 let myName: string = "Wakabi";
 let myJob: string;
 let meaningOfLife: number;
@@ -13,3 +14,10 @@ isLoading = true;
 album = 1994;
 album = "Hot step";
 album = true;
+
+// Function
+const sum = (a: number, b: number): number => {
+  return a + b;
+};
+
+sum(2, 4);

@@ -1,5 +1,6 @@
 "use strict";
 // ==================== Basics of Typescript.
+// string, number, boolean and any types
 let myName = "Wakabi";
 let myJob;
 let meaningOfLife;
@@ -13,3 +14,8 @@ isLoading = true;
 album = 1994;
 album = "Hot step";
 album = true;
+// Function
+const sum = (a, b) => {
+    return a + b;
+};
+sum(2, 4);
