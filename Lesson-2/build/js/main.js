@@ -5,3 +5,7 @@ let myName = "Wakabi";
 let myJob;
 myJob = "Programmer";
 myJob = "Designer";
+let meaningOfLife;
+let isLoading;
+meaningOfLife = 42;
+isLoading = true;
