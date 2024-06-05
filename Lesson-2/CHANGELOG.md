@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.0.3...v1.1.0) (2024-06-05)
+
+
+### Features
+
+* Start lesson 2 - Basics of Typescript ([abf1f30](https://github.com/wakabibrian/typescript-tutorial/commit/abf1f306a59b3aeecbc15b7dd05103ec1f6b81ac))
+
 ### [1.0.3](https://github.com/wakabibrian/typescript-tutorial/compare/v1.0.2...v1.0.3) (2024-06-04)
 
 
