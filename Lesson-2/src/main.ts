@@ -25,3 +25,6 @@ sum(2, 4);
 // Union type
 let postId: number | string;
 let isActive: number | boolean;
+
+// When you are not sure of the type - hover on the variable to get to know the type
+let re: RegExp = /\w+/g;

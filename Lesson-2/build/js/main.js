@@ -22,3 +22,5 @@ sum(2, 4);
 // Union type
 let postId;
 let isActive;
+// When you are not sure of the type - hover on the variable to get to know the type
+let re = /\w+/g;
