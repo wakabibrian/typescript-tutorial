@@ -18,3 +18,11 @@ mixedData = guitars;
 let test = []; // any type
 let bands = [];
 bands.push("Van Halen");
+// Tuple - specific with position (More strict than an array)
+let myTuple = ["Wakabi", 245, true]; //Tuple
+let mixed = ["Dave", 456, true]; //Array
+mixed = myTuple;
+// myTuple = mixed; //Typescript throws an error
+// myTuple[3] = 42; //Typescript throws an error because position 3 is not available (tuple is strict)
+myTuple[2] = false;
+myTuple[1] = 34;
