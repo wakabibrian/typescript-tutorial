@@ -21,3 +21,7 @@ const sum = (a: number, b: number): number => {
 };
 
 sum(2, 4);
+
+// Union type
+let postId: number | string;
+let isActive: number | boolean;
