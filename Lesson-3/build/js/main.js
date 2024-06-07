@@ -63,3 +63,16 @@ let jp3 = {
     active: true,
     albums: ["I", "II", "IV"],
 };
+let jp4 = {
+    name: "Jimmy",
+    active: true,
+    albums: ["I", "II", "IV"],
+};
+const greetGuitarist2 = (guitarist) => {
+    //   return `Hello ${guitarist.name.toUpperCase()}`; // Throws a typescript error. If name is optional during declaration... also make is optional
+    if (guitarist.name) {
+        return `Hello ${guitarist.name.toUpperCase()}`;
+    }
+    return "Hello!";
+};
+console.log(greetGuitarist(jp4));

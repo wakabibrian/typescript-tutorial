@@ -103,3 +103,26 @@ let jp3: Guitarist3 = {
   active: true,
   albums: ["I", "II", "IV"],
 };
+
+// Narrowing with optional properties
+interface Guitarist4 {
+  name?: string;
+  active: boolean;
+  albums: (string | number)[];
+}
+
+let jp4: Guitarist4 = {
+  name: "Jimmy",
+  active: true,
+  albums: ["I", "II", "IV"],
+};
+
+const greetGuitarist2 = (guitarist: Guitarist4) => {
+  //   return `Hello ${guitarist.name.toUpperCase()}`; // Throws a typescript error. If name is optional during declaration... also make is optional
+  if (guitarist.name) {
+    return `Hello ${guitarist.name.toUpperCase()}`;
+  }
+  return "Hello!";
+};
+
+console.log(greetGuitarist(jp4));
