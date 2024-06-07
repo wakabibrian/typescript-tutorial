@@ -75,4 +75,3 @@ const greetGuitarist2 = (guitarist) => {
     }
     return "Hello!";
 };
-console.log(greetGuitarist(jp4));

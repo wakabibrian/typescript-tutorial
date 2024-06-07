@@ -124,5 +124,3 @@ const greetGuitarist2 = (guitarist: Guitarist4) => {
   }
   return "Hello!";
 };
-
-console.log(greetGuitarist(jp4));
