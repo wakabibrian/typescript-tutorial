@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.3.0...v1.5.0) (2024-06-07)
+
+
+### Features
+
+* Add enum feature ([f60f71f](https://github.com/wakabibrian/typescript-tutorial/commit/f60f71fee991e31402c0ee7a1ce5e7eedf4d18cc))
+* Add object annotation ([95167d9](https://github.com/wakabibrian/typescript-tutorial/commit/95167d92d52acf0f00a34a7585e7ef1f06cd85e5))
+* Add object assignment ([afdde10](https://github.com/wakabibrian/typescript-tutorial/commit/afdde1029cd44e81e0f5977d0670d63e07688707))
+* Add object optional properties ([cb2c87a](https://github.com/wakabibrian/typescript-tutorial/commit/cb2c87a464a10150d6aa5bd6500f6be44d48de02))
+* Add object type as a parameter ([4edb8eb](https://github.com/wakabibrian/typescript-tutorial/commit/4edb8eb45b3d768caa062bb2694c90909c6a5a98))
+* Define type vs interface ([0c013fd](https://github.com/wakabibrian/typescript-tutorial/commit/0c013fdaeaeeb718b9e579b9aff63b3c1c9fa285))
+* Explain narrowing with optional properties ([4e270d1](https://github.com/wakabibrian/typescript-tutorial/commit/4e270d195c7ca1230628e85615ab1b56ec69b615))
+
+
+### Bug Fixes
+
+* Remove typescript error ([755800a](https://github.com/wakabibrian/typescript-tutorial/commit/755800a1383c6de28b2907577fe692b2b234e510))
+
 ## [1.4.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.3.0...v1.4.0) (2024-06-07)
 
 
