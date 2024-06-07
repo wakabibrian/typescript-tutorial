@@ -124,3 +124,14 @@ const greetGuitarist2 = (guitarist: Guitarist4) => {
   }
   return "Hello!";
 };
+
+// Enums
+enum Grade {
+  U = 1,
+  D,
+  C,
+  B,
+  A,
+}
+
+console.log(Grade.U);
