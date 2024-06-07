@@ -58,3 +58,8 @@ const greetGuitarist = (guitarist) => {
     return `Hello ${guitarist.name}`;
 };
 console.log(greetGuitarist(evh));
+let jp3 = {
+    name: "Jimmy",
+    active: true,
+    albums: ["I", "II", "IV"],
+};

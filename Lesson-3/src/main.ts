@@ -90,3 +90,16 @@ const greetGuitarist = (guitarist: Guitarist) => {
 };
 
 console.log(greetGuitarist(evh));
+
+// Type vs Interface -> Works the same but preferably use Interface when defining a class
+interface Guitarist3 {
+  name: string;
+  active?: boolean;
+  albums: (string | number)[];
+}
+
+let jp3: Guitarist3 = {
+  name: "Jimmy",
+  active: true,
+  albums: ["I", "II", "IV"],
+};
