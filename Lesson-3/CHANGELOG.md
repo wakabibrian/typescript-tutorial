@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.2.0...v1.3.0) (2024-06-07)
+
+
+### Features
+
+* Add arrays with typescript ([4b718ab](https://github.com/wakabibrian/typescript-tutorial/commit/4b718ab013c53d25eba6c5078a79232d72fb581d))
+* Add the object type ([c3fbaf0](https://github.com/wakabibrian/typescript-tutorial/commit/c3fbaf03b2190425844884cacbc5925bf335d052))
+* Add tuple with typescript ([91f4f5b](https://github.com/wakabibrian/typescript-tutorial/commit/91f4f5b0c9983b923d47bf6a52d99d8a38429a85))
+
 ## [1.2.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.1.0...v1.2.0) (2024-06-05)
 
 
