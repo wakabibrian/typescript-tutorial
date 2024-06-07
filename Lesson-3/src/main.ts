@@ -64,10 +64,22 @@ let evh: Guitarist = {
 };
 
 // Object Assignment
-let jp = {
+let jp: Guitarist = {
   name: "Jimmy",
   active: true,
   albums: ["I", "II", "IV"],
 };
 
 // evh.years = 40; //Typescript throws an error
+
+// Optional Object Property
+type Guitarist2 = {
+  name: string;
+  active?: boolean;
+  albums: (string | number)[];
+};
+
+let jp2: Guitarist2 = {
+  name: "Jimmy",
+  albums: ["I", "II", "IV"],
+};

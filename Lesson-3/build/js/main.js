@@ -49,4 +49,7 @@ let jp = {
     active: true,
     albums: ["I", "II", "IV"],
 };
-// evh.years = 40; //Typescript throws an error
+let jp2 = {
+    name: "Jimmy",
+    albums: ["I", "II", "IV"],
+};
