@@ -34,3 +34,9 @@ mixed = myTuple;
 // myTuple[3] = 42; //Typescript throws an error because position 3 is not available (tuple is strict)
 myTuple[2] = false;
 myTuple[1] = 34;
+
+// Objects
+let myObj: object;
+myObj = [];
+console.log(typeof myObj);
+myObj = bands;
