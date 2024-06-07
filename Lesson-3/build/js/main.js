@@ -31,3 +31,15 @@ let myObj;
 myObj = [];
 console.log(typeof myObj);
 myObj = bands;
+// Object Type Inference
+const exampleObj = {
+    prop1: "Dave",
+    prop2: true,
+};
+// exampleObj.prop2 = 42; //Typescript throws an error
+exampleObj.prop2 = false; //Typescript throws an error
+let evh = {
+    name: "Eddie",
+    active: false,
+    albums: [1984, 5150, "OU812"],
+};

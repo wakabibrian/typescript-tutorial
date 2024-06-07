@@ -40,3 +40,25 @@ let myObj: object;
 myObj = [];
 console.log(typeof myObj);
 myObj = bands;
+
+// Object Type Inference
+const exampleObj = {
+  prop1: "Dave",
+  prop2: true,
+};
+
+// exampleObj.prop2 = 42; //Typescript throws an error
+exampleObj.prop2 = false; //Typescript throws an error
+
+// Object type annotation
+type Guitarist = {
+  name: string;
+  active: boolean;
+  albums: (string | number)[];
+};
+
+let evh: Guitarist = {
+  name: "Eddie",
+  active: false,
+  albums: [1984, 5150, "OU812"],
+};
