@@ -43,3 +43,10 @@ let evh = {
     active: false,
     albums: [1984, 5150, "OU812"],
 };
+// Object Assignment
+let jp = {
+    name: "Jimmy",
+    active: true,
+    albums: ["I", "II", "IV"],
+};
+// evh.years = 40; //Typescript throws an error
