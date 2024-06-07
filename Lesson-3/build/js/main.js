@@ -53,3 +53,8 @@ let jp2 = {
     name: "Jimmy",
     albums: ["I", "II", "IV"],
 };
+// Object type as a parameter
+const greetGuitarist = (guitarist) => {
+    return `Hello ${guitarist.name}`;
+};
+console.log(greetGuitarist(evh));
