@@ -28,6 +28,11 @@ const add = (a: number, b: number): number => {
   return a + b;
 };
 
-const logMsg = (message: string): void => {
+// Function with no return value
+const logMsg = (message: any): void => {
   console.log(message);
 };
+
+logMsg("Hello!");
+logMsg(add(2, 3));
+// logMsg(add("a", 3)); // Throws a typescript error

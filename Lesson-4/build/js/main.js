@@ -11,6 +11,10 @@ username = "Miracle";
 const add = (a, b) => {
     return a + b;
 };
+// Function with no return value
 const logMsg = (message) => {
     console.log(message);
 };
+logMsg("Hello!");
+logMsg(add(2, 3));
+// logMsg(add("a", 3)); // Throws a typescript error
