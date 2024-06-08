@@ -7,3 +7,10 @@ let myName;
 myName = "Wakabi";
 let username;
 username = "Miracle";
+// Functions
+const add = (a, b) => {
+    return a + b;
+};
+const logMsg = (message) => {
+    console.log(message);
+};

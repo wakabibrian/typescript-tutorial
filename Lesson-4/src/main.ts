@@ -22,3 +22,12 @@ myName = "Wakabi";
 
 let username: "Wakabi" | "Brian" | "Miracle";
 username = "Miracle";
+
+// Functions
+const add = (a: number, b: number): number => {
+  return a + b;
+};
+
+const logMsg = (message: string): void => {
+  console.log(message);
+};
