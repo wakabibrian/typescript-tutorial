@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.5.1...v1.6.0) (2024-06-08)
+
+
+### Features
+
+* Add basic functions ([f7ef0a5](https://github.com/wakabibrian/typescript-tutorial/commit/f7ef0a5352eb5d69f9a2a96d862a32f4a7cffa53))
+* Add custom guard type ([2f2fd0f](https://github.com/wakabibrian/typescript-tutorial/commit/2f2fd0f23d8fe01d6fee5312880db441692d2d25))
+* Add default values ([88e52da](https://github.com/wakabibrian/typescript-tutorial/commit/88e52da8a0b23b9a01f63a923b512fddbf572de9))
+* Add function interface ([ed3c113](https://github.com/wakabibrian/typescript-tutorial/commit/ed3c113ef2b11abc17226768e72c099126793b05))
+* Add function type aliases ([14206dd](https://github.com/wakabibrian/typescript-tutorial/commit/14206dd8edcbaca18780625562f300af22656b4d))
+* Add functions with no return value ([7d4f2b0](https://github.com/wakabibrian/typescript-tutorial/commit/7d4f2b08ad708e7e9eb9f64c4fece6e2e5ed8871))
+* Add literal types ([6387cb9](https://github.com/wakabibrian/typescript-tutorial/commit/6387cb976e3ce199d3fe537bf4b3d3abe67610d3))
+* Add optional parameters ([104f497](https://github.com/wakabibrian/typescript-tutorial/commit/104f4977b97af9151690de323813080bdf65f70d))
+* Add rest parameters ([5e1d54f](https://github.com/wakabibrian/typescript-tutorial/commit/5e1d54fb68c46fd60ee499a28585a3b0ff09ebd7))
+* Add the function keyword example ([21b1bb0](https://github.com/wakabibrian/typescript-tutorial/commit/21b1bb03f4e86c549ef3e4e51c203fe16aeecea5))
+* Add the never type ([2a9b108](https://github.com/wakabibrian/typescript-tutorial/commit/2a9b1085a72341ef017a6ea345f4c47638e2cf19))
+* Add type aliases ([168f246](https://github.com/wakabibrian/typescript-tutorial/commit/168f2469dcca814b0edb673d0b18288693cd1cb3))
+
 ### [1.5.1](https://github.com/wakabibrian/typescript-tutorial/compare/v1.5.0...v1.5.1) (2024-06-08)
 
 ## [1.5.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.3.0...v1.5.0) (2024-06-07)
