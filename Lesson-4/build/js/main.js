@@ -66,11 +66,22 @@ const infinite = () => {
             break; //If tis wasn't there it would be a never type
     }
 };
-const isNumber = (value) => { };
+// use of the never type
 const numberOrString = (value) => {
     if (typeof value === "string")
         return "string";
     if (typeof value === "number")
+        return "number";
+    return createError("This should never happen!");
+};
+// Custom type guard
+const isNumber = (value) => {
+    return typeof value === "number" ? true : false;
+};
+const numberOrString2 = (value) => {
+    if (typeof value === "string")
+        return "string";
+    if (isNumber(value))
         return "number";
     return createError("This should never happen!");
 };
