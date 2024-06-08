@@ -30,3 +30,10 @@ let multiply2 = function (c, d) {
     return c * d;
 };
 logMsg(multiply2(2, 2));
+// Optional parameters
+const addAll = (a, b, c) => {
+    if (typeof c !== "undefined") {
+        return a + b + c;
+    }
+    return a + b;
+};

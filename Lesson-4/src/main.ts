@@ -61,3 +61,11 @@ let multiply2: mathFunction = function (c, d) {
 };
 
 logMsg(multiply2(2, 2));
+
+// Optional parameters
+const addAll = (a: number, b: number, c?: number): number => {
+  if (typeof c !== "undefined") {
+    return a + b + c;
+  }
+  return a + b;
+};
