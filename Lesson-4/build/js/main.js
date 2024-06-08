@@ -49,3 +49,8 @@ const sumAll2 = (a = 10, b, c = 2) => {
     return a + b + c;
 };
 logMsg(sumAll2(undefined, 3));
+// Rest parameters
+const total = (a, ...nums) => {
+    return a + nums.reduce((prev, curr) => prev + curr);
+};
+logMsg(total(10, 2, 3));

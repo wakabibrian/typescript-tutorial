@@ -85,3 +85,10 @@ const sumAll2 = (a: number = 10, b: number, c: number = 2): number => {
 };
 
 logMsg(sumAll2(undefined, 3));
+
+// Rest parameters
+const total = (a: number, ...nums: number[]): number => {
+  return a + nums.reduce((prev, curr) => prev + curr);
+};
+
+logMsg(total(10, 2, 3));
