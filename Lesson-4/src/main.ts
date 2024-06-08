@@ -50,3 +50,14 @@ let multiply: mathFunction = function (c, d) {
 };
 
 logMsg(multiply(2, 2));
+
+// Function Interface
+interface mathFunction2 {
+  (a: number, b: number): number;
+}
+
+let multiply2: mathFunction = function (c, d) {
+  return c * d;
+};
+
+logMsg(multiply2(2, 2));

@@ -26,3 +26,7 @@ let multiply = function (c, d) {
     return c * d;
 };
 logMsg(multiply(2, 2));
+let multiply2 = function (c, d) {
+    return c * d;
+};
+logMsg(multiply2(2, 2));
