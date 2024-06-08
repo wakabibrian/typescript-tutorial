@@ -14,3 +14,11 @@ type Guitarist = {
 type userId = stringOrNumber;
 
 // interface postId = typeOrNumber; //This can't work
+
+// Literal types
+let myName: "Wakabi";
+// myName = "Brian" // Throws a typescript error
+myName = "Wakabi";
+
+let username: "Wakabi" | "Brian" | "Miracle";
+username = "Miracle";
