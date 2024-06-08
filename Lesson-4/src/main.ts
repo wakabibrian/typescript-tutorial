@@ -92,3 +92,25 @@ const total = (a: number, ...nums: number[]): number => {
 };
 
 logMsg(total(10, 2, 3));
+
+// The never type - Functions that throw errors and infinite/endless loops
+const createError = (errMsg: string): never => {
+  throw new Error(errMsg);
+};
+
+const infinite = () => {
+  let i: number = 1;
+
+  while (true) {
+    i++;
+    if (i > 100) break; //If tis wasn't there it would be a never type
+  }
+};
+
+const isNumber = (value: any) => {};
+
+const numberOrString = (value: number | string): string => {
+  if (typeof value === "string") return "string";
+  if (typeof value === "number") return "number";
+  return createError("This should never happen!");
+};

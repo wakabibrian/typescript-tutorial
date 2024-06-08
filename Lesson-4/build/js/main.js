@@ -54,3 +54,23 @@ const total = (a, ...nums) => {
     return a + nums.reduce((prev, curr) => prev + curr);
 };
 logMsg(total(10, 2, 3));
+// The never type - Functions that throw errors and infinite/endless loops
+const createError = (errMsg) => {
+    throw new Error(errMsg);
+};
+const infinite = () => {
+    let i = 1;
+    while (true) {
+        i++;
+        if (i > 100)
+            break; //If tis wasn't there it would be a never type
+    }
+};
+const isNumber = (value) => { };
+const numberOrString = (value) => {
+    if (typeof value === "string")
+        return "string";
+    if (typeof value === "number")
+        return "number";
+    return createError("This should never happen!");
+};
