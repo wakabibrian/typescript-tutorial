@@ -69,3 +69,19 @@ const addAll = (a: number, b: number, c?: number): number => {
   }
   return a + b;
 };
+
+// Default parameters
+const sumAll = (a: number, b: number, c: number = 2): number => {
+  return a + b + c;
+};
+
+logMsg(addAll(2, 3, 2));
+logMsg(addAll(2, 3));
+logMsg(sumAll(2, 3, 4));
+logMsg(sumAll(2, 3));
+
+const sumAll2 = (a: number = 10, b: number, c: number = 2): number => {
+  return a + b + c;
+};
+
+logMsg(sumAll2(undefined, 3));

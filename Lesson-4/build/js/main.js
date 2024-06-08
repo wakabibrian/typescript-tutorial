@@ -37,3 +37,15 @@ const addAll = (a, b, c) => {
     }
     return a + b;
 };
+// Default parameters
+const sumAll = (a, b, c = 2) => {
+    return a + b + c;
+};
+logMsg(addAll(2, 3, 2));
+logMsg(addAll(2, 3));
+logMsg(sumAll(2, 3, 4));
+logMsg(sumAll(2, 3));
+const sumAll2 = (a = 10, b, c = 2) => {
+    return a + b + c;
+};
+logMsg(sumAll2(undefined, 3));
