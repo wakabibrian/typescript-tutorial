@@ -18,3 +18,7 @@ const logMsg = (message) => {
 logMsg("Hello!");
 logMsg(add(2, 3));
 // logMsg(add("a", 3)); // Throws a typescript error
+// The function keyword
+let subtract = function (c, d) {
+    return c - d;
+};
