@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.6.0...v1.7.0) (2024-06-09)
+
+
+### Features
+
+* Add double casting and the unknown type ([7db0b5b](https://github.com/wakabibrian/typescript-tutorial/commit/7db0b5b22725a59012c6604644b67f55a7f37325))
+* Add exercise and solution ([28807eb](https://github.com/wakabibrian/typescript-tutorial/commit/28807eb6443be691c5822281eb342f408b69d472))
+* Convert to more or less specific type ([4b8de91](https://github.com/wakabibrian/typescript-tutorial/commit/4b8de91fdc98a01aaa3cbea477559578e82dce2a))
+* DOM selection types ([8317c6f](https://github.com/wakabibrian/typescript-tutorial/commit/8317c6fec6f9e9cdad1efa73e330fa5465557822))
+* Narrow return values with assertions ([b757780](https://github.com/wakabibrian/typescript-tutorial/commit/b757780c073f9a11edb54200bd102c5e1bc077a6))
+* Use angle bracket syntax instead of as ([ecd952d](https://github.com/wakabibrian/typescript-tutorial/commit/ecd952df197c162cd4a5a1757badcb75faa6306b))
+
+
+### Bug Fixes
+
+* Caution assertions allows mistakes ([2a00a70](https://github.com/wakabibrian/typescript-tutorial/commit/2a00a70cce69941443cff1f523a135e543b72f55))
+
 ## [1.6.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.5.1...v1.6.0) (2024-06-08)
 
 
