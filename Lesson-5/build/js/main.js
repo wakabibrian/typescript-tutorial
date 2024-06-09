@@ -16,3 +16,5 @@ const addOrConcat = (a, b, c) => {
     return "" + b + c;
 };
 let myVal = addOrConcat(2, 2, "concat");
+// Caution assertions allows mistakes
+let nextVal = addOrConcat(2, 2, "concat"); //This is a mistake but it allows it - a string is returned

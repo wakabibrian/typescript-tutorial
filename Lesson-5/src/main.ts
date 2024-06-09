@@ -27,3 +27,6 @@ const addOrConcat = (
 };
 
 let myVal: string = addOrConcat(2, 2, "concat") as string;
+
+// Caution assertions allows mistakes
+let nextVal: number = addOrConcat(2, 2, "concat") as number; //This is a mistake but it allows it - a string is returned
