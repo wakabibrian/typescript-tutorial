@@ -30,3 +30,7 @@ let myVal: string = addOrConcat(2, 2, "concat") as string;
 
 // Caution assertions allows mistakes
 let nextVal: number = addOrConcat(2, 2, "concat") as number; //This is a mistake but it allows it - a string is returned
+
+// Double casting and the unknown type
+// 10 as string; //Throws a typescript error (Checks before converting)
+10 as unknown as string; //Double casting with unknown type (But always avoid this just like the any type because it over rules typescript)
