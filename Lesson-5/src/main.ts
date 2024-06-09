@@ -34,3 +34,10 @@ let nextVal: number = addOrConcat(2, 2, "concat") as number; //This is a mistake
 // Double casting and the unknown type
 // 10 as string; //Throws a typescript error (Checks before converting)
 10 as unknown as string; //Double casting with unknown type (But always avoid this just like the any type because it over rules typescript)
+
+// DOM Selection Types (Assertions more useful here)
+const img = document.querySelector("img") as HTMLImageElement; //More specific
+const myImg = document.getElementById("#img"); //Less specific
+
+img.src; //Throws an error if the assertion wasn't applied because of null
+myImg.src;
