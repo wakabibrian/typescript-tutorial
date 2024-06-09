@@ -16,6 +16,8 @@
 
 // Visibility modifier - Less repetitive
 class Coder {
+  secondLang!: string; //Definite assignment assertion operator
+
   constructor(
     public readonly name: string,
     readonly music: string,
