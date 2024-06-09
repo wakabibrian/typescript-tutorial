@@ -24,5 +24,7 @@ let nextVal = addOrConcat(2, 2, "concat"); //This is a mistake but it allows it 
 // DOM Selection Types (Assertions more useful here)
 const img = document.querySelector("img"); //More specific
 const myImg = document.getElementById("#img"); //Less specific
+const nextImg = document.getElementById("#img"); //Caution: This wont work in tsx files for react
 img.src; // Use ! on myImg which is non null assertion
 myImg.src; // Throws an error if the assertion wasn't applied because of null
+nextImg.src;
