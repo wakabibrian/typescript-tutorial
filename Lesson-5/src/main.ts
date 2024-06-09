@@ -11,3 +11,7 @@ let b = a as Two; // Converted to a Less specific type (number or string);
 b = "Wakabi";
 b = 2;
 let c = a as Three; // Converted to a more specific type ("hello")
+
+//Angle bracket syntax instead of "as"
+let d = <One>"World"; //d is of value "World" and is of type string
+let e = <string | number>"World"; //not used much because they (d and e) cannot be used in react
