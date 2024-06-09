@@ -15,3 +15,15 @@ let c = a as Three; // Converted to a more specific type ("hello")
 //Angle bracket syntax instead of "as"
 let d = <One>"World"; //d is of value "World" and is of type string
 let e = <string | number>"World"; //not used much because they (d and e) cannot be used in react
+
+// Narrowing return values with assertions
+const addOrConcat = (
+  a: number,
+  b: number,
+  c: "add" | "concat"
+): number | string => {
+  if (c === "add") return a + b;
+  return "" + b + c;
+};
+
+let myVal: string = addOrConcat(2, 2, "concat") as string;
