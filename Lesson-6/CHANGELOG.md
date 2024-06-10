@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.7.0...v1.8.0) (2024-06-10)
+
+
+### Features
+
+* Add basic class ([7b2532e](https://github.com/wakabibrian/typescript-tutorial/commit/7b2532e0b21a3c50f4d8edce784b909f7a09196b))
+* Add definite assignment assertion operator ([f9279fd](https://github.com/wakabibrian/typescript-tutorial/commit/f9279fda7f3bd228e95c8948aebe1918af9effb1))
+* Add Extends for classes ([c332d56](https://github.com/wakabibrian/typescript-tutorial/commit/c332d5647f80a4fca624b3a71000c3fe6b7cd8c7))
+* Add Getters and Setters ([82ab6ad](https://github.com/wakabibrian/typescript-tutorial/commit/82ab6adf96ddf59dd4ba414d894faabd70565764))
+* Add larger class ([9b37042](https://github.com/wakabibrian/typescript-tutorial/commit/9b37042a624e32a3da03c670d161a6e3f548f557))
+* Add Private and Protected examples ([c840868](https://github.com/wakabibrian/typescript-tutorial/commit/c840868224c99f9cd91d2f8bbc8f638acf8c35ea))
+* Add Static class members ([dae9e4d](https://github.com/wakabibrian/typescript-tutorial/commit/dae9e4d21cd1b3b119b6b3f5c8ff443a9839de03))
+* Add visibility modifiers ([f136722](https://github.com/wakabibrian/typescript-tutorial/commit/f136722e44abf59f11548d36aaec811979de9d23))
+* Implements for Interfaces ([7ecb82c](https://github.com/wakabibrian/typescript-tutorial/commit/7ecb82c36aed330d3acec1ab648afa7780dff90f))
+
+
+### Bug Fixes
+
+* Remove Typescript errors - Private and Protected ([9be9dab](https://github.com/wakabibrian/typescript-tutorial/commit/9be9dabdde56f2b48484c00c2f72e486f5b9b76a))
+
 ## [1.7.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.6.0...v1.7.0) (2024-06-09)
 
 
