@@ -34,5 +34,5 @@ class Coder {
 // Private can only be accessed inside of that class
 const Wakabi = new Coder("Wakabi", "Rock", 34);
 console.log(Wakabi.getAge());
-console.log(Wakabi.age); //Throws an error because it is private (can only be accessed within that class)
-console.log(Wakabi.lang); //Throws an error because it is protected (can only be accessed within that class and subclasses)
+// console.log(Wakabi.age); //Throws an error because it is private (can only be accessed within that class) but it is legal Javascript
+// console.log(Wakabi.lang); //Throws an error because it is protected (can only be accessed within that class and subclasses) but it is legal Javascript
