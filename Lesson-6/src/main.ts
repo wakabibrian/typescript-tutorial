@@ -64,3 +64,27 @@ const Britney = new WebDev("Mac", "Britney", "Lofi", 5);
 console.log(Britney.getLang());
 // console.log(Britney.age); //Throws an error because it is private (can only be accessed within class Coder)
 // console.log(Britney.lang); //Throws an error because it is private (can only be accessed within class Coder and it's subclasses)
+
+// Implements for Interfaces
+interface Musician {
+  name: string;
+  instrument: string;
+  play(action: string): string;
+}
+
+class Guitarist implements Musician {
+  name: string;
+  instrument: string;
+
+  constructor(name: string, instrument: string) {
+    this.name = name;
+    this.instrument = instrument;
+  }
+
+  play(action: string): string {
+    return `${this.name} ${action} the ${this.instrument}`;
+  }
+}
+
+const Page = new Guitarist("Jimmy", "guitarist");
+console.log(Page.play("strums"));

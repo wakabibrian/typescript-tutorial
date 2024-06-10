@@ -49,5 +49,14 @@ class WebDev extends Coder {
 }
 const Britney = new WebDev("Mac", "Britney", "Lofi", 5);
 console.log(Britney.getLang());
-// console.log(Britney.age); //Throws an error because it is private (can only be accessed within class Coder)
-// console.log(Britney.lang); //Throws an error because it is private (can only be accessed within class Coder and it's subclasses)
+class Guitarist {
+    constructor(name, instrument) {
+        this.name = name;
+        this.instrument = instrument;
+    }
+    play(action) {
+        return `${this.name} ${action} the ${this.instrument}`;
+    }
+}
+const Page = new Guitarist("Jimmy", "guitarist");
+console.log(Page.play("strums"));
