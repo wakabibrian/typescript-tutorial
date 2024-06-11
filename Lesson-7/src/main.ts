@@ -34,7 +34,7 @@
 
 // index signature syntax
 interface TransactionObj {
-  [index: string]: number;
+  readonly [index: string]: number;
 }
 
 const todaysTransactions: TransactionObj = {
@@ -58,3 +58,5 @@ const todaysNet = (transactions: TransactionObj): number => {
 };
 
 console.log(todaysNet(todaysTransactions));
+
+// todaysTransactions.Pizza = 40; //Typescript throws an error because of readonly
