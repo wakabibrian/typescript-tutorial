@@ -33,14 +33,23 @@
 // console.log(todaysNet(todaysTransactions));
 
 // index signature syntax
+// interface TransactionObj {
+//   readonly [index: string]: number;
+// }
+
+//Combining required properties with index signatures
 interface TransactionObj {
-  readonly [index: string]: number;
+  readonly [index: string]: number; //Allows to add other properties
+  Pizza: number; //This and the other two are required
+  Books: number;
+  Job: number;
 }
 
 const todaysTransactions: TransactionObj = {
   Pizza: -10,
   Books: -5,
   Job: 50,
+  Wakabi: 34,
 };
 
 console.log(todaysTransactions.Pizza);

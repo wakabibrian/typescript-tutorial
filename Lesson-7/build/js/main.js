@@ -7,6 +7,7 @@ const todaysTransactions = {
     Pizza: -10,
     Books: -5,
     Job: 50,
+    Wakabi: 34,
 };
 console.log(todaysTransactions.Pizza);
 console.log(todaysTransactions["Pizza"]);
