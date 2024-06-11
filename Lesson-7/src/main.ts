@@ -72,3 +72,19 @@ console.log(todaysNet(todaysTransactions));
 
 // Non existing Properties
 console.log(todaysTransactions["Wakabi"]); //Typescript doesn't give us an error and returns undefined because we used index signature which is a problem
+
+// Optional Properties
+interface Student {
+  [key: string]: string | number | number[] | undefined; //undefined because one of the properties is optional
+  name: string;
+  GPA: number;
+  classes?: number[];
+}
+
+const student: Student = {
+  name: "Wakabi",
+  GPA: 3.5,
+  classes: [100, 200],
+};
+
+console.log(student.test); // No error because of index signature is added
