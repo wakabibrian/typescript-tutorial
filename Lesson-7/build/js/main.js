@@ -21,3 +21,5 @@ const todaysNet = (transactions) => {
 };
 console.log(todaysNet(todaysTransactions));
 // todaysTransactions.Pizza = 40; //Typescript throws an error because of readonly
+// Non existing Properties
+console.log(todaysTransactions["Wakabi"]); //Typescript doesn't give us an error and returns undefined because we used index signature which is a problem
