@@ -75,7 +75,7 @@ console.log(todaysTransactions["Wakabi"]); //Typescript doesn't give us an error
 
 // Optional Properties
 interface Student {
-  [key: string]: string | number | number[] | undefined; //undefined because one of the properties is optional
+  // [key: string]: string | number | number[] | undefined; //undefined because one of the properties is optional
   name: string;
   GPA: number;
   classes?: number[];
@@ -88,3 +88,12 @@ const student: Student = {
 };
 
 // console.log(student.test); // No error because of index signature is added - potential error
+
+// keyof assertions
+for (const key in student) {
+  console.log(`${key}: ${student[key as keyof Student]}`);
+}
+
+Object.keys(student).map((key) =>
+  console.log(student[key as keyof typeof student])
+);

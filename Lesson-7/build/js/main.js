@@ -30,3 +30,8 @@ const student = {
     classes: [100, 200],
 };
 // console.log(student.test); // No error because of index signature is added - potential error
+// keyof assertions
+for (const key in student) {
+    console.log(`${key}: ${student[key]}`);
+}
+Object.keys(student).map((key) => console.log(student[key]));
