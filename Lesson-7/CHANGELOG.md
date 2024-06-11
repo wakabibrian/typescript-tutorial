@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.9.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.8.0...v1.9.0) (2024-06-11)
+
+
+### Features
+
+* Add index signature syntax ([79f371e](https://github.com/wakabibrian/typescript-tutorial/commit/79f371ec910b7083c6e34cab86bc22d7295e4d5e))
+* Add keyof assertion ([16a9f34](https://github.com/wakabibrian/typescript-tutorial/commit/16a9f34ea4bcc85bc5f2b4f10d5673ac3b734b98))
+* Add Non existing properties ([2c9d399](https://github.com/wakabibrian/typescript-tutorial/commit/2c9d399332e5ad19766cf27322d89603ad76066e))
+* Add optional properties ([88c197c](https://github.com/wakabibrian/typescript-tutorial/commit/88c197cb2f54e04f92c737a47f72fe1a7ecc4b40))
+* Add readonly modifier ([47e65cb](https://github.com/wakabibrian/typescript-tutorial/commit/47e65cb38946b0f71fcc23081b1c19c87e3c8693))
+* Add Record utility type vs index signatures ([2705103](https://github.com/wakabibrian/typescript-tutorial/commit/2705103fe02986b09448a967d3044f7e2b1ffcb2))
+* Add Requred properties together with index signature ([c3a27ef](https://github.com/wakabibrian/typescript-tutorial/commit/c3a27ef33589ffd1097b075f9c8b04a72d699723))
+* Add what index signatures are ([bbcf371](https://github.com/wakabibrian/typescript-tutorial/commit/bbcf371f9238a857b9c15efeba272e3d48175a5f))
+* Add why you need an index signature ([2ddcf93](https://github.com/wakabibrian/typescript-tutorial/commit/2ddcf93c47bfd83b45a140d87c72888bd87e1863))
+
+
+### Bug Fixes
+
+* Remove potential error - property that doesn't exist ([e5ab067](https://github.com/wakabibrian/typescript-tutorial/commit/e5ab067be2dad27fb69e903a2eb3c5e7a136d71f))
+
 ## [1.8.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.7.0...v1.8.0) (2024-06-10)
 
 
