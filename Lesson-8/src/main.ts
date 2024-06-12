@@ -56,3 +56,16 @@ const checkBoolValue = <T>(arg: T): BoolCheck<T> => {
   }
   return { value: arg, is: !!arg };
 };
+
+// Narrowing Generics with extends
+interface HasID {
+  id: number;
+}
+
+const processUser = <T extends HasID>(user: T): T => {
+  //extends indicates must have an HasID
+  return user;
+};
+
+console.log(processUser({ id: 1, name: "Wakabi" }));
+// console.log(processUser({ name: "Wakabi" })); //Throws a typescript error

@@ -46,3 +46,9 @@ const checkBoolValue = (arg) => {
     }
     return { value: arg, is: !!arg };
 };
+const processUser = (user) => {
+    //extends indicates must have an HasID
+    return user;
+};
+console.log(processUser({ id: 1, name: "Wakabi" }));
+// console.log(processUser({ name: "Wakabi" })); //Throws a typescript error
