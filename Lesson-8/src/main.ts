@@ -129,3 +129,29 @@ const usersArray = [
 
 console.log(getUsersProperty(usersArray, "email"));
 console.log(getUsersProperty(usersArray, "username"));
+
+// Class with Generics
+class StateObject<T> {
+  private data: T;
+
+  constructor(value: T) {
+    this.data = value;
+  }
+
+  get state(): T {
+    return this.data;
+  }
+
+  set state(value: T) {
+    this.data = value;
+  }
+}
+
+const store = new StateObject("John");
+console.log(store.state); //get
+store.state = "Dave"; //set
+// store.state = 12; //Typescript throws an error because you created a new object with a string so you can not set a number
+
+const myState = new StateObject<(string | number | boolean)[]>([15]);
+myState.state = ["Wakabi", 34, true];
+console.log(myState.state);
