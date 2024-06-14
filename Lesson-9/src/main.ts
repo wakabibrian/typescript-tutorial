@@ -86,3 +86,8 @@ const preview: AssignPreview = {
 type adjustedGrade = Exclude<LetterGrades, "U">;
 
 type highGrades = Extract<LetterGrades, "A" | "B">;
+
+// Nonnullable
+type AllPossibleGrades = "Dave" | "John" | null | undefined;
+
+type namesOnly = NonNullable<AllPossibleGrades>; //Excludes both null and undefined
