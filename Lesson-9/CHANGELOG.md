@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.11.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.10.0...v1.11.0) (2024-06-14)
+
+
+### Features
+
+* Add Awaited utility type ([9ddf920](https://github.com/wakabibrian/typescript-tutorial/commit/9ddf9202b5eb1ad13960b21d57cb41ec64d05e42))
+* Add Exclude and Extract utility types ([fe3e24d](https://github.com/wakabibrian/typescript-tutorial/commit/fe3e24d2f995401e3f1cd52823f7b9f868d53cf6))
+* Add NonNullable utility type ([c24da25](https://github.com/wakabibrian/typescript-tutorial/commit/c24da25f032a3c3a06ecd84543e834c1034a305e))
+* Add Parameters utility type ([76600fd](https://github.com/wakabibrian/typescript-tutorial/commit/76600fd981811cb07d1f6d7fd8adccee11a9a99b))
+* Add Partial Utility type ([97c73a0](https://github.com/wakabibrian/typescript-tutorial/commit/97c73a01bd60b58bc8d1a557fed7ea0cc42dc637))
+* Add Pick and Omit Utility types ([ece92df](https://github.com/wakabibrian/typescript-tutorial/commit/ece92df417b9e4b3b2026ca650adb04af01928f2))
+* Add Record utiity type ([ae70a1d](https://github.com/wakabibrian/typescript-tutorial/commit/ae70a1dbf20e9d9875e4e3724cc1e7d37aa64c73))
+* Add Required and Readonly utility types ([8f3b51a](https://github.com/wakabibrian/typescript-tutorial/commit/8f3b51a9e5f52ff95948de04cb946956c40e6b5b))
+* Add ReturnType utility type ([2707587](https://github.com/wakabibrian/typescript-tutorial/commit/2707587e0792253e20f3651eb183da5c80505053))
+
 ## [1.10.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.9.0...v1.10.0) (2024-06-14)
 
 
