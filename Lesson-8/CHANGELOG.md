@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.10.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.9.0...v1.10.0) (2024-06-14)
+
+
+### Features
+
+* Add Class with Generics ([bbc3fc0](https://github.com/wakabibrian/typescript-tutorial/commit/bbc3fc0365ea7aa00ad0f411b62c96b341de2a4b))
+* Add Generics Syntax ([8a899c5](https://github.com/wakabibrian/typescript-tutorial/commit/8a899c558a4c3ffe23106fc58790859fb520e713))
+* Add Generics with Extends ([77afffa](https://github.com/wakabibrian/typescript-tutorial/commit/77afffa337fc802a9f1879a9a2706d63d071970b))
+* Add interface with Generics example ([c7e759c](https://github.com/wakabibrian/typescript-tutorial/commit/c7e759cfa7a5d01ea25d60cecd4f45da7eb95655))
+* Add isObject example ([228eb2a](https://github.com/wakabibrian/typescript-tutorial/commit/228eb2aacd5089b858de1e0c62370809c1f65f2c))
+* Add isTrue with key of assertion example ([5c5a8a1](https://github.com/wakabibrian/typescript-tutorial/commit/5c5a8a1820adf0ce07b9c1d5ce8b6ecd1ac447ee))
+* Add Multiple Type variables & Extends with keyof ([8916a49](https://github.com/wakabibrian/typescript-tutorial/commit/8916a490224374cdd6c49342cf315af08ef62150))
+* Add what Generics are ([bd1567e](https://github.com/wakabibrian/typescript-tutorial/commit/bd1567eade8e40642457973c5546847737719879))
+
 ## [1.9.0](https://github.com/wakabibrian/typescript-tutorial/compare/v1.8.0...v1.9.0) (2024-06-11)
 
 
